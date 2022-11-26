@@ -75,9 +75,9 @@ li a:visited {
 }
 
 /* something extra */
-/* li a:hover {
-    color: blue;
-} */
+li a:hover {
+    color: black;
+}
 
 .bigarticle {
     padding-left: 20px;
@@ -86,9 +86,8 @@ li a:visited {
 }
 
 #toppicartilceimg {
-    width: 730px;
-
-    padding-left: 10px;
+    width: 713px;
+    padding-left: 10px;    
 }
 
 
@@ -101,6 +100,7 @@ li a:visited {
 }
 
 /* border line to seperate */
+
 .more-articles {
     border-top: solid 1px #eee;
     margin-top: 35px;
@@ -128,9 +128,6 @@ li a:visited {
     width: 20%;
     padding-left: 30px;
     padding-right: 60px;
-    
-    
-  
 }
 .bonusArticles p {
     text-align: justify;
@@ -143,6 +140,7 @@ li a:visited {
 .bonusArticles h3{
     font-family: Roboto Slab;
 }
+
 /* boderline to seperate */
 .bonusArticles{
     border-top: solid 1px #eee;
