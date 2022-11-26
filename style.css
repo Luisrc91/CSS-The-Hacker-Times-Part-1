@@ -7,10 +7,14 @@ body {
     width: 780px;
 }
 
+.date {
+    font-size: 15px;
+}
+
 .newspaper-container {
     background-color: white;
     border-radius: 20px;
-    padding: 2%;
+    padding: 3%;
     box-shadow: 4px 4px #ddd;
 }
 
@@ -41,7 +45,7 @@ h4 {
 h5 {
     font-family: roboto slab;
     color: #dd3232;
-    padding-left: 10px;    
+    padding-left: 10px;
 }
 
 ul {
@@ -51,7 +55,7 @@ ul {
     border-bottom: solid 1px;
     color: #eee;
 
-       /* eliminates padding for nav */
+    /* eliminates padding for nav */
     padding-inline-start: 0;
 }
 
@@ -78,12 +82,12 @@ li a:visited {
 .bigarticle {
     padding-left: 20px;
     text-align: justify;
-    padding-right: 20px;    
+    padding-right: 20px;
 }
 
 #toppicartilceimg {
     width: 730px;
-    
+
     padding-left: 10px;
 }
 
@@ -95,9 +99,11 @@ li a:visited {
     font-family: Source Sans Pro;
     font-size: 15px;
 }
+
 /* border line to seperate */
-.more-articles{
-    border-top: solid 1px #eee; margin-top:35px;
+.more-articles {
+    border-top: solid 1px #eee;
+    margin-top: 35px;
 }
 
 #smallarticle {
@@ -110,3 +116,43 @@ li a:visited {
     text-align: justify;
 }
 
+/* bonus */
+
+.bonusimg{
+    width: 200px;
+    height: 120px;
+    filter: grayscale(100%);
+}
+.bonusArticles section{
+    display: inline-block;
+    width: 20%;
+    padding-left: 30px;
+    padding-right: 60px;
+    
+    
+  
+}
+.bonusArticles p {
+    text-align: justify;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    width: 180px;
+    padding-left: 8px;
+    }
+
+.bonusArticles h3{
+    font-family: Roboto Slab;
+}
+/* boderline to seperate */
+.bonusArticles{
+    border-top: solid 1px #eee;
+    margin-top: 35px;
+}
+
+/* Footer */
+.footer{
+    text-align: center;
+}
+.footer li{
+    padding-left: 30px;
+}
